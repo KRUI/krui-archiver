@@ -8,12 +8,14 @@ Install
 2. Install streamripper - OS X users should use [homebrew](https://github.com/Homebrew/homebrew) `brew install streamripper`
 3. Configure the script by setting the configurable user parameters:
 
-`prefix="<filename_prefix>"                                           # Prefix used when naming files. Useful when archiving different stations into one directory.
-radiostream="<link to stream .m3u with port>"                         # Link to recording target (must be a webstream, obviously)
-dest_path="<absolute path to store recordings>"                       # Absolute path for recordings. No trailing slash!
-audio_sizecap=<cap in megabytes>                                      # Size cap of audio storage path in megabytes. As the size of the storage directory approaches
-                                                                      # 90% of the cap defined here, emails will be sent.
-notification_email=alert@domain.com                                   # Email that should processing errors and warnings`
+```
+	prefix="<filename_prefix>"                                            # Prefix used when naming files. Useful when archiving different stations into one directory.
+	radiostream="<link to stream .m3u with port>"                         # Link to recording target (must be a webstream, obviously)
+	dest_path="<absolute path to store recordings>"                       # Absolute path for recordings. No trailing slash!
+	audio_sizecap=<cap in megabytes>                                      # Size cap of audio storage path in megabytes. As the size of the storage directory approaches
+	                                                                       # 90% of the cap defined here, emails will be sent.
+	notification_email=alert@domain.com                                   # Email that should processing errors and warnings`
+```
 
 4. Give krui-archiver.sh execute permissions using `chmod +x /path/to/krui-archiver.sh` and launch. It will run continuously until you stop it by killing the bash window or sending a ^C interrupt.
 
@@ -22,4 +24,5 @@ notification_email=alert@domain.com                                   # Email th
 License
 =============
 krui-archiver (c) 2013 Tony Andrys
+
 Licensed under the GPL v2, see LICENSE for more details.
