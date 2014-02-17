@@ -19,7 +19,7 @@ Install
 
 4. Give krui-archiver.sh execute permissions using `chmod +x /path/to/krui-archiver.sh` and launch. It will run continuously until you stop it by killing the bash window or sending a ^C interrupt.
 
-_NOTE:_ If you are using the GNU date/time utils, you will experience problems with the timestamp functionality. If you are on OS X, you are fine (as of 10.9.1). A fix for GNU systems is to download and compile the BSD `date` and `time` utilities and hardcode them into each `date`/`time` call below.   
+**NOTE:** If you are using the GNU date/time utils, you will experience problems with the timestamp functionality. If you are on OS X, you are fine (as of 10.9.1). A fix for GNU systems is to download and compile the BSD `date` and `time` utilities and hardcode them into each `date`/`time` call in the script.
 
 License
 =============

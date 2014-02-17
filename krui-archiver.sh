@@ -2,11 +2,11 @@
 # Title           :krui-archiver.sh
 # Description     :Rips the 89.7 webstream continuously, cuts the audio into hourly intervals,
 #                 :and stores them into directories depending on the date of broadcast. 
-# Author		  :Tony Andrys (aandrys@krui.fm)
+# Author          :Tony Andrys (aandrys@krui.fm)
 # Date            :02-16-2014
 # Version         :1.3    
 # License         :GPLv2, see LICENSE for more details.
-# Usage		      :bash krui-archiver.sh
+# Usage           :bash krui-archiver.sh
 # Notes           :Ensure User Parameters are defined correctly for your system, see README.
 # Dependencies    :streamripper (written by Greg Sharp - gregsharp@users.sourceforge.net)
 #                 :postfix (for sending errors via email, comment this out if you're not using it)
