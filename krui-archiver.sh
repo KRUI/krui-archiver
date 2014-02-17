@@ -5,6 +5,7 @@
 # Author		  :Tony Andrys (aandrys@krui.fm)
 # Date            :02-16-2014
 # Version         :1.3    
+# License         :GPLv2, see LICENSE for more details.
 # Usage		      :bash krui-archiver.sh
 # Notes           :Ensure User Parameters are defined correctly for your system, see README.
 # Dependencies    :streamripper (written by Greg Sharp - gregsharp@users.sourceforge.net)
@@ -13,7 +14,11 @@
 # Bash Version    :3.2.51(1)-release 
 #=======================================================================================================
 
+
+
+###
 # User Parameters
+###
 prefix="Main"                                                         # Prefix used when naming files. Useful when archiving different stations into one directory.
 radiostream="http://krui.student-services.uiowa.edu:8000/listen.m3u"  # Link to recording target (must be a webstream, obviously)
 dest_path="/Users/tony/archives"                                      # Absolute path for recordings. No trailing slash!	
