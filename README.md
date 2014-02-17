@@ -24,5 +24,7 @@ Install
 License
 =============
 krui-archiver (C) 2013 KRUI
+
 Written by Tony Andrys - contact: aandrys@krui.fm
+
 Licensed under the GPL v3, see LICENSE for more details.
